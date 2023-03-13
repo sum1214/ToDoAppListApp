@@ -1,24 +1,16 @@
-package com.example.todolistapp.Utils;
+package com.example.todolistapp.utils;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.icu.text.UnicodeSetSpanner;
-import android.os.Build;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
-import com.example.todolistapp.Model.ToDoModel;
+import com.example.todolistapp.model.ToDoModel;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import kotlin.jvm.internal.PropertyReference0Impl;
 
 public class DatabaseHandler extends SQLiteOpenHelper {
     private static final int VERSION = 1;

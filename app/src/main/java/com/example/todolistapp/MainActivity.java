@@ -3,19 +3,17 @@ package com.example.todolistapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.todolistapp.Adapter.ToDoAdapter;
-import com.example.todolistapp.Model.ToDoModel;
-import com.example.todolistapp.Utils.DatabaseHandler;
+import com.example.todolistapp.adapter.ToDoAdapter;
+import com.example.todolistapp.model.ToDoModel;
+import com.example.todolistapp.utils.DatabaseHandler;
 import com.example.todolistapp.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 

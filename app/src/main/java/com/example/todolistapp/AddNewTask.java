@@ -1,7 +1,6 @@
 package com.example.todolistapp;
 
 import android.app.Activity;
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Color;
@@ -20,8 +19,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.example.todolistapp.Model.ToDoModel;
-import com.example.todolistapp.Utils.DatabaseHandler;
+import com.example.todolistapp.model.ToDoModel;
+import com.example.todolistapp.utils.DatabaseHandler;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class AddNewTask extends BottomSheetDialogFragment {

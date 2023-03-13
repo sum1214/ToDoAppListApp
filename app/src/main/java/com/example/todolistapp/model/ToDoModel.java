@@ -1,4 +1,4 @@
-package com.example.todolistapp.Model;
+package com.example.todolistapp.model;
 
 public class ToDoModel {
     private int id,status;

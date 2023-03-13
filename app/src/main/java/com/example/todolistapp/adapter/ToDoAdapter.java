@@ -1,4 +1,4 @@
-package com.example.todolistapp.Adapter;
+package com.example.todolistapp.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,9 +14,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.todolistapp.AddNewTask;
-import com.example.todolistapp.Model.ToDoModel;
+import com.example.todolistapp.model.ToDoModel;
 import com.example.todolistapp.R;
-import com.example.todolistapp.Utils.DatabaseHandler;
+import com.example.todolistapp.utils.DatabaseHandler;
 
 import java.util.List;
 
