@@ -10,12 +10,12 @@
     android:backgroundTint="@color/white"
     app:cardElevation="4dp">
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp">
         <CheckBox
             android:textColor="@color/black"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="This is Sample Task in My Application."
             android:paddingStart="8dp"
