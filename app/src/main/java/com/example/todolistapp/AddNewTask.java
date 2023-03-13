@@ -2,6 +2,7 @@ package com.example.todolistapp;
 
 import android.app.Activity;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -49,6 +51,9 @@ public class AddNewTask extends BottomSheetDialogFragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         newTaskEdt = view.findViewById(R.id.new_task_et);
+        newTaskEdt.requestFocus();
+        InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.showSoftInput(newTaskEdt, InputMethodManager.SHOW_IMPLICIT);
         saveBtn = view.findViewById(R.id.new_task_btn);
         db = new DatabaseHandler(getActivity());
         db.openDatabase();
