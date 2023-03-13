@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="holo_green_dark">@android:color/holo_green_dark</color>
+    <color name="saffron">#F4C430</color>
+    <color name="navajo_white">#FFDEAD</color>
 </resources>
