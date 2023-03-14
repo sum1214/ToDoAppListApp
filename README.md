@@ -1,2 +1,2 @@
 # ToDoAppListApp
-To Do List app using SQLiteDataBase and java
+To Do List app using SQLiteDatabase and java
